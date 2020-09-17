@@ -30,12 +30,19 @@
 
 
 **设计模式的术**  
-23种设计模式可按照“创建型”、“行为型”和“结构型”进行划分。  
-- *[创建型](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative.md)*  
-创建型封装了创建对象过程中的变化，比如工厂模式，将创建对象的过程剥离；  
+*23种设计模式可按照“创建型”、“行为型”和“结构型”进行划分。*  
+#### 创建型  
+> 创建型封装了创建对象过程中的变化，比如工厂模式，将创建对象的过程剥离；
+- [工厂模式](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative_factory.md)  
+- [单例模式](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative_singleton.md)
+
+#### 行为型
+> 行为型对对象千变万化的行为进行抽离，确保我们能够更安全、更方便地对行为进行更改；  
 - *[行为型](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Behavioral/behavioral.md)*  
-行为型对对象千变万化的行为进行抽离，确保我们能够更安全、更方便地对行为进行更改；  
+
+#### 结构型  
+> 结构型模式封装的是对象之间组合方式的变化，目的在于灵活地表达对象间的配合与依赖关系。  
 - *[结构型](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Structural/structural.md)*
-结构型模式封装的是对象之间组合方式的变化，目的在于灵活地表达对象间的配合与依赖关系。  
+
 
 ---

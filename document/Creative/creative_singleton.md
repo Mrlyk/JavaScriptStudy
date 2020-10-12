@@ -88,16 +88,17 @@ class Modal{
   }
 }
 
-open(){
+function open(){
   const modal = Modal.getModal()
   modal.style.display = 'block'
 }
 
-close(){
+function close(){
   const modal = Modal.getModal()
-    modal.style.display = 'none'
+  modal.style.display = 'none'
 }
 ```
 
 **总结**  
+单例模式的作用就是用来保证全局只有一个我们需要的对象, 某些场景下某个对象也只能全局存在一个. 同时也能减少对象创建和内存开销.
 

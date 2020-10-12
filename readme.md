@@ -35,7 +35,7 @@
 > 创建型封装了创建对象过程中的变化，比如工厂模式，将创建对象的过程剥离；
 - [工厂模式](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative_factory.md)  
 - [单例模式](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative_singleton.md)
-
+- [原型模式](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Creative/creative_prototype.md)
 #### 行为型
 > 行为型对对象千变万化的行为进行抽离，确保我们能够更安全、更方便地对行为进行更改；  
 - *[行为型](https://github.com/Mrlyk/JavaScriptStudy/blob/master/document/Behavioral/behavioral.md)*  

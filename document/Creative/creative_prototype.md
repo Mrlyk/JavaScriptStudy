@@ -46,7 +46,7 @@ Dog.prototype.eat = function() {
 在 JavaScript 中, 每个构造函数都用于一个 prototype 属性, 他指向构造函数的原型对象, 这个原型对象中有一个 constructor 属性指回构造函数;
 每个实例都有一个 \_\_proto__ 属性指向构造函数的原型对象.  
 当我们像上面一样声明一个类时, 他们的实体之间就存在如下图所示的关系  
-![原型图1-1](https://github.com/Mrlyk/JavaScriptStudy/blob/master/static/image/原型图1-1.png)  
+![原型图1-1](https://github.com/Mrlyk/JavaScriptStudy/blob/master/static/imgae/%E5%8E%9F%E5%9E%8B%E5%9B%BE1-1.png)  
 当我们调用如下两个方法时
 ```javascript
 let dog = new Dog()
@@ -55,7 +55,7 @@ dog.toString()
 ```
 dog 这个实例本身并没有定义这两个方法, 当实例本身并没有时, 他会去搜索原型对象, 而原型对象中刚好有这个方法 eat , 就就行调用; 如果原型
 对象中也搜索不到, 就去搜索原型对象的原型对象, 一直搜索到原型对象是 null 为止. 这个搜索的轨迹也就是我们常说的原型链. 如下图所示  
-![原型图1-2](https://github.com/Mrlyk/JavaScriptStudy/blob/master/static/image/原型图1-2.png)  
+![原型图1-2](https://github.com/Mrlyk/JavaScriptStudy/blob/master/static/imgae/%E5%8E%9F%E5%9E%8B%E5%9B%BE1-2.png)  
 
 #### 3.对象的深拷贝  
 [深拷贝的终极探索](https://segmentfault.com/a/1190000016672263)
